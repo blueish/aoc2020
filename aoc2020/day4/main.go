@@ -79,7 +79,7 @@ var FIELD_VALIDATORS map[string]func(string) bool = map[string]func(string) bool
 
 func main() {
 
-	file, e := os.Open("C:/Users/sam/dev/advent/aoc2020/day4/input.txt.txt")
+	file, e := os.Open("C:/Users/sam/dev/advent/aoc2020/day4/input.txt")
 	if e != nil {
 		log.Fatal(e)
 	}
